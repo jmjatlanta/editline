@@ -23,7 +23,12 @@
 #ifndef EDITLINE_PRIVATE_H_
 #define EDITLINE_PRIVATE_H_
 
-#include <config.h>
+/*
+ * Note: the following 2 lines have been altered from the original.
+ * The original can be found at https://github.com/troglobit/editline
+ */
+#define CRLF "\r\n"
+//#include <config.h>
 #include <stdio.h>
 #ifdef HAVE_MALLOC_H
 #include <malloc.h>
